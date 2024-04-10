@@ -9,7 +9,7 @@
         <option name="moduleContents">
           <ModuleContents>
             <option name="contentSelectionType" value="PACKAGE_XML" />
-            <option name="packageXmlRelativePath" value="src/package.xml" />
+            <option name="packageXmlRelativePath" value="force-app/package.xml" />
           </ModuleContents>
         </option>
       </configuration>
