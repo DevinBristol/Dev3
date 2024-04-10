@@ -1,0 +1,3 @@
+<apex:page standardController="RetailStore">
+    <companycam:CompanyCamInitiationComponent objType="RetailStore" objId="{!RetailStore.Id}" />
+</apex:page>

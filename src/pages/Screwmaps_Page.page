@@ -1,0 +1,6 @@
+<apex:page >
+    <apex:form >
+    
+    <c:Screwmaps btnText="FIRE!" btnColor="RED"></c:Screwmaps>
+    </apex:form>
+</apex:page>
