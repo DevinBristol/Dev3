@@ -15,9 +15,7 @@
 #sfdx force:mdapi:deploy --checkonly -u DevHub -d test_code/ -w -1 -l RunLocalTests
 
 echo "Deploying source to org"
-sf project deploy start --source-dir DevTest3
+sf project deploy start --source-dir src
 
 echo "Testing code in org"
 sf apex run test --test-level RunLocalTests --outputdir test-results --result-format tap
-
-C:\Users\Devin\IdeaProjects\DevTest3\src
