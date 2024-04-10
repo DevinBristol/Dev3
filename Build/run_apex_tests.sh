@@ -18,4 +18,4 @@ echo "Deploying source to org"
 sf project deploy start --source-dir src --target-org DevHub
 
 echo "Testing code in org"
-sf apex run test --testlevel RunLocalTests --outputdir test-results --resultformat tap --target-org DevHub
+sf apex run test --test-level RunLocalTests --outputdir test-results --result-format tap --target-org
